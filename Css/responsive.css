@@ -1,0 +1,746 @@
+
+/* ##################################################################### 1400px ############################################################# */
+
+@media(max-width:1400px){
+
+    /* ----------------------------------------------------------------- virtual asistant ---------------------------------------------------- */
+
+    .virtual .virtual-container-max .row .virtual-card p{
+        min-height: 120px;
+    }
+
+    .virtual .virtual-container-max .row .virtual-card h3{
+        font-size: 40px;
+    }
+
+    /* -------------------------------------------------------------------- work ----------------------------------------------------------- */
+
+    .work .container .row .col25 h3{
+        font-size: 20px;
+    }
+
+    /* -------------------------------------------------------------------- footer ----------------------------------------------------------- */
+
+    .footer .container .subscribe form label{
+        font-size: 20px;
+    }
+
+}
+/* ##################################################################### 1200px ############################################################# */
+
+@media(max-width: 1200px){
+
+    /* -------------------------------------------------------------- service ---------------------------------------------------------------- */
+
+    .service .container .serv-btm .serv-card h3{
+        font-size: 22px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+
+    .service .container .serv-top .col70 h2{
+        line-height: 1.5;
+    }
+
+    /* ----------------------------------------------------------------- virtual asistant ---------------------------------------------------- */
+
+    .virtual .virtual-container-max .row .virtual-card{
+        padding: 40px 25px;
+    }
+
+    .virtual .virtual-container-max .row .virtual-card p{
+        min-height: 120px;
+        font-size: 13px;
+    }
+
+    .virtual .virtual-container-max .row .virtual-card h3{
+        font-size: 28px;
+    }
+
+    /* -------------------------------------------------------------------- foundation ------------------------------------------------------- */
+
+    .foundation .foundation-container-max .found-btm .found-card h3{
+        font-size: 20px;
+    }
+
+    /* -------------------------------------------------------------------- work ----------------------------------------------------------- */
+
+    .work .container .row .col25 h3{
+        font-size: 16px;
+    }
+
+    .work .container .row .col25 p{
+        font-size: 14px;
+        min-height: 96px;
+    }
+
+
+}
+/* ##################################################################### 1024px ############################################################# */
+
+@media(max-width: 1024px){
+
+    p{
+        font-size: 16px;
+    }
+
+    /* -------------------------------------------------------------- review ---------------------------------------------------------------- */
+
+    .review .review-container .review-part1 .rating i{
+        font-size: 25px;
+    }
+
+    .review .review-container .review-part1 h2{
+        font-size: 20px;
+    }
+
+    .review .review-container .review-part1 .review-quote-left{
+        left: 10%;
+    }
+
+    .review .review-container .review-part1 .review-quote-right{
+        right: 10%;
+    }
+
+    .review .review-container .reviewSwiper .swiper-button-next,
+    .review .review-container .reviewSwiper .swiper-button-prev{
+        width: 40px;
+        height: 40px;
+    }
+
+    /* -------------------------------------------------------------------- footer ----------------------------------------------------------- */
+
+    .footer .container .subscribe{
+        padding: 45px 60px;
+    }
+
+    .footer .container .subscribe form label{
+        font-size: 18px;
+    }
+
+}
+/* ##################################################################### 991px ############################################################# */
+
+@media(max-width: 991px){
+    /* -------------------------------------------------------------- common ----------------------------------------------------------------- */
+
+        h3{
+            font-size: 22px;
+        }
+
+
+    /* -------------------------------------------------------------- navbar ---------------------------------------------------------------- */
+
+    header{
+        padding: 10px 0;
+    }
+
+    .nav-menu{
+        z-index: 1000;
+        position: fixed;
+        flex-direction: column;
+        background-color: rgb(0, 0, 0);
+        align-items: center;
+        max-width: 250px;
+        width: 100%;
+        top: 0%;
+        height: calc(100vh - 0%);
+        right: -100%;
+        transition: 0.5s all ease;
+    }
+
+    .nav-menu li{
+        margin: 20px 0px;
+    }
+
+    .menu-btn{
+        display: block;
+    }
+
+    .menu-btn i{
+        position: relative;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    #check:checked ~ .menu-btn i::before{
+        top: -16px;
+        position: absolute;
+        content: "\f00d";
+        z-index: 1001;
+        right: 0px;
+    }
+    
+
+    /* -------------------------------------------------------------- banner ---------------------------------------------------------------- */
+    .banner .container .hero{
+        align-items: center;
+    }
+
+    .banner .container .hero h1{
+        width: 80%;
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .banner .container .hero p{
+        width: 80%;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .banner .container .hero a{
+        padding: 15px 25px;
+    }
+
+    /* -------------------------------------------------------------- service ---------------------------------------------------------------- */
+
+    .service .container .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service .container .serv-top .col70{
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 40px;
+    }
+
+    .service .container .serv-top .col70 h2{
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .service .container .serv-top .col70 p{
+        text-align: center;
+    }
+
+    .service .container .serv-top .col30{
+        max-width: 100%;
+        flex: 0 0 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service .container .serv-btm .serv-card h3{
+        line-height: 1.5;
+        /* font-size: 19px; */
+        margin: 10px 0;
+    }
+
+    .service .container .serv-btm .serv-card p{
+        /* font-size: 10px; */
+    }
+
+    /* -------------------------------------------------------------- economy ---------------------------------------------------------------- */
+
+    .economy .container-fluid .row{
+        justify-content: center;
+    }
+    .economy .container-fluid .row .col33{
+        max-width: 50%;
+        flex: 0 0 50%;
+        margin-bottom: 10px;
+    }
+
+    /* ----------------------------------------------------------------- virtual asistant ---------------------------------------------------- */
+
+    .virtual .virtual-container-max .row .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .virtual .virtual-container-max .row .virtual-card{
+        padding: 40px 28px;
+    }
+
+    .virtual .virtual-container-max .row .virtual-card p{
+        min-height: 110px;
+        font-size: 16px;
+    }
+
+    .virtual .virtual-container-max .row .virtual-card h3{
+        font-size: 36px;
+    }
+
+    /* -------------------------------------------------------------------- foundation ------------------------------------------------------- */
+
+    .foundation .foundation-container-max .found-btm .found-card h3{
+        min-height: 60px;
+    }
+
+    /* ------------------------------------------------------------------------ faq ---------------------------------------------------------- */
+
+    .faq .container .faq-top h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .faq .container .faq-top p{
+        width: 100%;
+        text-align: center;
+    }
+
+    .faq .container .faq-btm .faq-content{
+        padding: 0px 20px;
+    }
+
+    /* -------------------------------------------------------------- review ---------------------------------------------------------------- */
+
+    .review .review-container .review-part1 h2{
+        width: 100%;
+    }
+
+    .review .review-container .review-part1 .review-quote-left,
+    .review .review-container .review-part1 .review-quote-right{
+        max-width: 100px;
+    }
+
+    /* ----------------------------------------------------------------- work ---------------------------------------------------------------- */
+
+    .work .container .row .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .work .container .row .work-card h3{
+        font-size: 18px;
+    }
+
+    /* -------------------------------------------------------------------- footer ----------------------------------------------------------- */
+    .footer{
+        margin-top: 10px;
+    }
+
+    .footer ul li a{
+        font-size: 13px;
+    }
+
+    .footer .container .subscribe{
+        padding: 45px 15px;
+        width: 100%;
+    }
+
+    .footer .container .subscribe form{
+        flex-direction: column;
+    }
+
+    .footer .container .subscribe form label{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer .container .subscribe form #email{
+        width: 100%;
+    }
+
+    .footer .container .subscribe #email-error.error{
+        left: 0;
+        bottom: -50px;
+    }
+
+    .footer .container .subscribe .cmn-btn{
+        top: 50%;
+    }
+
+    .footer .container .row{
+        padding-top: 80px;
+    }
+
+    .footer .container .row .col25,
+    .footer .container .row .col30,
+    .footer .container .row .col20{
+        max-width: 50%;
+        flex: 0 0 50%;
+        margin-bottom: 35px;
+    }
+
+    .footer .container .row .footer-logo div{
+        max-width: 80%;
+        font-size: 13px;
+    }
+}
+
+
+/* ##################################################################### 767px ############################################################# */
+
+@media(max-width: 767px){
+
+    h2{
+        font-size: 35px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    /* -------------------------------------------------------------- banner ---------------------------------------------------------------- */
+
+    .banner .container .hero h1{
+        width: 95%;
+        font-size: 40px;
+    }
+
+    .banner .container .hero p{
+        width: 95%;
+        font-size: 12px;
+    }
+
+    /* -------------------------------------------------------------- service ---------------------------------------------------------------- */
+
+    /* .service .container .serv-btm .serv-card h3{
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .service .container .serv-btm .serv-card p{
+        text-align: center;
+        font-size: 10px;
+    } */
+
+    .service .container .serv-top .col30 a{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+
+    .service .container .serv-btm{
+        margin-top: 10px;
+    }
+
+    .foundation .foundation-container-max .found-btm .found-card h3{
+        font-size: 15px;
+        min-height: 0px;
+    }
+
+    /* -------------------------------------------------------------- review ---------------------------------------------------------------- */
+
+    .review .review-container .review-part1 .rating i{
+        font-size: 20px;
+    }
+
+    .review .review-container .review-part1 p{
+        font-size: 15px;
+    }
+
+    .review .review-container .review-part1 h2{
+        font-size: 18px;
+    }
+
+    .review .review-container .review-part1 img{
+        max-width: 150px;
+    }
+
+    .review .review-container .review-part1 .review-quote-left,
+    .review .review-container .review-part1 .review-quote-right{
+        max-width: 70px;
+    }
+
+    .review .review-container .review-part1 .review-quote-left{
+        left: 5%;
+    }
+
+    .review .review-container .review-part1 .review-quote-right{
+        right: 5%;
+    }
+
+    .review .review-container .reviewSwiper .swiper-button-next,
+    .review .review-container .reviewSwiper .swiper-button-prev{
+        width: 30px;
+        height: 30px;
+    }
+
+
+
+}
+/* ##################################################################### 576px ############################################################# */
+
+@media(max-width:576px){
+
+    /* ----------------------------------------------------------------- common ------------------------------------------------------------- */
+
+    h3{
+        font-size: 18px;
+    }
+
+    /* ----------------------------------------------------------------- economy ------------------------------------------------------------ */
+
+    .economy .container-fluid .row .col33{
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 0px;
+    }
+
+    .economy .container-fluid .row .col33 .econ-content{
+        align-items: center;
+        padding: 30px;
+    }
+
+    .economy .container-fluid .row .col33 .econ-content p{
+        text-align: center;
+    }
+
+    /* ----------------------------------------------------------------- virtual asistant ---------------------------------------------------- */
+
+    .virtual .virtual-container .row h2{
+        margin-bottom: 0;
+    }
+
+    .virtual .virtual-container .row .col50{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .virtual .virtual-container .row .virtual-content1 h3{
+        font-size: 45px;
+    }
+
+    .virtual .virtual-container-max .row .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .virtual .virtual-container-max .row .virtual-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .virtual .virtual-container-max .row .virtual-card{
+        padding: 40px 25px;
+    }
+
+    .virtual .virtual-container-max .row .virtual-card p{
+        min-height: 72px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .virtual .virtual-container-max .row .virtual-card h3{
+        font-size: 45px;
+    }
+
+    /* ---------------------------------------------------------------- foundation ----------------------------------------------------------- */
+
+    .foundationSwiper{
+        width: 70%;
+    }
+
+    .foundation .foundation-container-max .found-btm .found-card{
+        align-items: center;
+    }
+
+    .foundation .foundation-container-max .found-btm .found-card h3{
+        text-align: center;
+    }
+
+    .foundation .foundation-container-max .found-btm .found-card h3::after{
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .foundation .foundation-container-max .found-btm .found-card p{
+        text-align: center;
+    }
+
+    /* ------------------------------------------------------------------------ faq ---------------------------------------------------------- */
+
+    .faq .container .faq-btm .faq-content .faq-ques i{
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    /* ----------------------------------------------------------------- work ---------------------------------------------------------------- */
+
+    .work .container .row .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .work .container .row .work-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .work .container .row .col25 h3::before{
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .work .container .row .col25 p{
+        text-align: center;
+    }
+
+    /* -------------------------------------------------------------------- footer ----------------------------------------------------------- */
+    .footer ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .container .row .col25,
+    .footer .container .row .col30,
+    .footer .container .row .col20{
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 35px;
+    }
+
+    .footer .container .row .footer-logo,
+    .footer .container .row .qlink,
+    .footer .container .row .cinfo,
+    .footer .container .row .olinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .container .row .footer-logo div{
+        text-align: center;
+    }
+
+    .footer .container .row .footer-logo .footer-social{
+        flex-direction: row;
+    }
+
+}
+/* ##################################################################### 480px ############################################################# */
+
+@media(max-width:480px){
+
+    h2{
+        font-size: 25px;
+    }
+
+    h3{
+        font-size: 12px;
+    }
+
+    p{
+        font-size: 13px;
+    }
+
+    .cmn-btn{
+        padding: 18px 22px;
+    }
+
+    /* ----------------------------------------------------------------- economy ------------------------------------------------------------ */
+
+    .economy .container-fluid .row .col33 .econ-content p{
+        font-size: 13px;
+    }
+
+    /* ---------------------------------------------------------------- foundation ----------------------------------------------------------- */
+
+    .found-btm .swiper-button-next,
+    .found-btm .swiper-button-prev{
+        width: 44px;
+        height: 44px;
+    }
+
+    /* ------------------------------------------------------------------------ faq ---------------------------------------------------------- */
+
+    .faq .container .faq-btm .faq-content .faq-ques i{
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    /* -------------------------------------------------------------- review ---------------------------------------------------------------- */
+
+    .review .review-container .review-part1 .rating{
+        margin-bottom: 20px;
+    }
+
+    .review .review-container .review-part1 .rating i{
+        font-size: 15px;
+    }
+
+    .review .review-container .review-part1 p{
+        font-size: 12px;
+    }
+
+    .review .review-container .review-part1 h2{
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .review .review-container .review-part1 img{
+        max-width: 150px;
+    }
+
+    .review .review-container .review-part1 .review-quote-left,
+    .review .review-container .review-part1 .review-quote-right{
+        max-width: 50px;
+    }
+
+    .review .review-container .review-part1 .review-quote-left{
+        left: 5%;
+    }
+
+    .review .review-container .review-part1 .review-quote-right{
+        right: 5%;
+    }
+
+    .review .review-container .reviewSwiper .swiper-button-next,
+    .review .review-container .reviewSwiper .swiper-button-prev{
+        width: 30px;
+        height: 30px;
+    }
+
+    /* ---------------------------------------------------------------- footer -------------------------------------------------------------- */
+
+    .footer .container .subscribe form .cmn-btn{
+        padding: 0px 15px;
+        font-size: 12px;
+        top: 60%;
+        bottom: 0;
+    }
+
+    
+}
+/* ##################################################################### 375px ############################################################# */
+
+@media(max-width:375px){
+
+    h2{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 11px;
+    }
+
+    .cmn-btn{
+        padding: 14px 18px;
+    }
+
+    /* ----------------------------------------------------------------- economy ------------------------------------------------------------ */
+
+    .economy .container-fluid .row .col33 .econ-content p{
+        font-size: 11px;
+    }
+
+    .virtual .virtual-container .row .virtual-content1 .cmn-btn{
+        padding: 14px 18px;
+        font-size: 15px;
+    }
+
+    /* -------------------------------------------------------------- review ---------------------------------------------------------------- */
+
+    .review .review-container .review-part1 p{
+        font-size: 9px;
+    }
+
+    /* -------------------------------------------------------------------- footer ----------------------------------------------------------- */
+
+   
+    .footer .container-fluid .copyright{
+        font-size: 10px;
+    }
+    
+}
